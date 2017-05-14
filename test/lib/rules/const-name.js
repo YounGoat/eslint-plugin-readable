@@ -20,7 +20,13 @@ var ruleTester = new RuleTester({
 
 ruleTester.run('RULE const-name', rule, {
 	valid: [
-		'const MALE = 1, FEMALE = 0'
+		'const MALE = 1, FEMALE = 0',
+		{
+			code: 'const male = 1',
+			options: [{
+				except: 'male'
+			}]
+		}
 	],
 
 	invalid: [

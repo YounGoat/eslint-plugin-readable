@@ -1,19 +1,19 @@
 {
 	"rules": {
-		"readable/const-name": "error",
-		"readable/function-name": "error",
+		"readable/const-name": "off",
+		"readable/function-name": "off",
 		"readable/function-lines": ["error", {
 			"max": 40,
 			"skipComments": true,
 			"skipBlankLines": true
 		}],
-		"readable/loop": ["error", {
-			"maxDepth": 3
+		"readable/loop-nesting": ["error", {
+			"max": 3
 		}],
-		"readable/parameters": ["error", {
-			"maxLength": 4
+		"readable/param-number": ["error", {
+			"max": 4
 		}],
-		"readable/property-name": "error",
-		"readable/var-name": "error"
+		"readable/property-name": "off",
+		"readable/var-name": "off"
 	}
 }

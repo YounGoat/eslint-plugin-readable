@@ -1,7 +1,7 @@
 {
     "name": "eslint-plugin-readable",
-    "version": "0.0.1",
-    "description": "",
+    "version": "0.0.2",
+    "description": "Make your JavaScript more readable",
     "keywords": [
         "eslint",
         "eslintplugin",
@@ -10,7 +10,7 @@
     "author": "youngoat@163.com",
     "main": "lib/index.js",
     "scripts": {
-        "test": "mocha tests --recursive"
+        "test": "./node_modules/.bin/mocha --recursive"
     },
     "repository": {
         "type": "git",
