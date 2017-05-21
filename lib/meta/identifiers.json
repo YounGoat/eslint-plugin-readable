@@ -1,0 +1,8 @@
+[
+	"XMLHttpRequest",
+	"decodeURI",
+	"decodeURIComponent",
+	"encodeURI",
+	"encodeURIComponent",
+	"isNaN"
+]

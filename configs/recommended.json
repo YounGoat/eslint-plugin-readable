@@ -1,12 +1,13 @@
 {
 	"rules": {
 		"readable/const-name": "off",
-		"readable/function-name": "off",
 		"readable/function-lines": ["error", {
 			"max": 40,
 			"skipComments": true,
 			"skipBlankLines": true
 		}],
+		"readable/function-name": "off",
+		"readable/loop-counter": "off",
 		"readable/loop-nesting": ["error", {
 			"max": 3
 		}],
@@ -14,6 +15,8 @@
 			"max": 4
 		}],
 		"readable/property-name": "off",
+		"readable/space-in-brackets": "off",
+		"readable/space-in-parens": "warn",
 		"readable/var-name": "off"
 	}
 }
