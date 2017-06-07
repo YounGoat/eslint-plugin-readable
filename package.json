@@ -1,6 +1,6 @@
 {
     "name": "eslint-plugin-readable",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Make your JavaScript more readable",
     "keywords": [
         "eslint",
